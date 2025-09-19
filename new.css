@@ -71,26 +71,19 @@ a {
 p {
     line-height: 1.2;
 }
+
 .shark {
     margin: auto;
     display: inline-block;
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 800px;
+    width: 600px;
     transition: transform 0.3s ease;
     animation: float 3s ease-in-out infinite;
 }
 
-.shark:hover {
-    transform: scale(1.1) ;
-}
-
-body {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-    to {opacity: 1;}
+strong {
+    font-size: 24px;
+    font-weight: bold;
 }
