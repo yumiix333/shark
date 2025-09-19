@@ -2,6 +2,7 @@ html{
     background-image: linear-gradient(to right, rgb(43, 65, 132), rgb(70, 189, 189));
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 
 
@@ -91,4 +92,5 @@ body {
 
 @keyframes fadeIn {
     to {opacity: 1;}
+
 }
